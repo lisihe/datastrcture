@@ -107,9 +107,9 @@ void MergeList_Sq(SqList La, SqList Lb, SqList &Lc) {
     while(pb <= pb_last) *pc++ = *pb;   // 插入Lb中剩余的元素
 }// MergeList_Sq
 
-
+void test1();
 int main(void) {
-
+    test1();
     return 0;
 }
 void testMergeList() {
